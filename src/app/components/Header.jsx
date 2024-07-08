@@ -4,7 +4,7 @@ import { IoSearchOutline } from "react-icons/io5";
 import { MdPermIdentity } from "react-icons/md";
 import { HiOutlineBookmark } from "react-icons/hi2";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
-import MenuDrawer from "./Sidebarr";
+import MenuDrawer from "./Drawer";
 const Header = () => {
   return (
     <>
