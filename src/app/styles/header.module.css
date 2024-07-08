@@ -1,0 +1,37 @@
+.name {
+  display: flex;
+  gap: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 2rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.icons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .link {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+}

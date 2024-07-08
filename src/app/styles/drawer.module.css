@@ -1,0 +1,44 @@
+.drawer_container {
+  display: none;
+}
+.drawer svg {
+  color: white;
+  font-size: 1.2rem;
+  display: none;
+}
+.logo {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+  gap: 1.5rem;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.3rem;
+  margin-top: 5%;
+}
+.icons svg {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .drawer svg {
+    display: block;
+  }
+  .drawer_container {
+    display: block;
+  }
+}
